@@ -5,7 +5,7 @@ public class QueueMain {
     public static void main(String[] args) {
 
          // Created an object of service class and called the method
-         
+
         QueueServices queue = new QueueServices();
         queue.enqueu(56);
         queue.enqueu(30);
