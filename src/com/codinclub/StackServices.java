@@ -66,7 +66,7 @@ public class StackServices {
      *
      * @return: we return the head data
      */
-    public int peek() {
+    public int peak() {
         if (isEmpty()) {
             return -1;
         }
@@ -80,7 +80,7 @@ public class StackServices {
      */
     public void display() {
         while (!isEmpty()) {
-            System.out.println(peek());
+            System.out.println(peak());
             pop();
 
         }

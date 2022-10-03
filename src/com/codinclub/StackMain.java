@@ -3,7 +3,6 @@ package com.codinclub;
 /**
  *  Main method for the stack
  *  We are creating object of the service class and calling its function
- *
  */
 public class StackMain {
     public static void main(String[] args) {
@@ -12,11 +11,11 @@ public class StackMain {
         stack.push(70);
         stack.push(30);
         stack.push(56);
-        stack.peek();
+        stack.peak();
         stack.pop();
         stack.pop();
         stack.pop();
-        stack.peek();
+        stack.peak();
 
         stack.display();
     }
