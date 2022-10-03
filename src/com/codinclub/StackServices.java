@@ -75,7 +75,7 @@ public class StackServices {
 
     /**
      * [5] Method to print the stack
-     * 1. In this we display the peek method and then we pop the top element
+     * 1. In this we display the peek method, and then we pop the top element
      * 2. We continue till the stack is empty
      */
     public void display() {
